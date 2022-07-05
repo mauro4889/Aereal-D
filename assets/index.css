@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_menu {
+  cursor: pointer;
+  margin: 1%;
+  transition: 0.6s linear;
+  width: 2em;
+  top: 0%;
+  z-index: 10;
+}
+@media (min-width: 319px) and (max-width: 767px) {
+  .btn_menu {
+    margin: 5%;
+  }
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  width: 3em;
+  height: 0.4em;
+  margin: 10% 0;
+  transition: 0.4s;
+  transform-origin: 0px 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.active_line-1 {
+  transform: rotate(45deg) translate(-4px, -1px);
+  background-color: #000;
+}
+@media (min-width: 319px) and (max-width: 767px) {
+  .active_line-1 {
+    transform: rotate(45deg) translate(-5px, -1px);
+    background-color: #000;
+  }
+}
+
+.active_line-2 {
+  opacity: 0;
+  margin-left: -100px;
+}
+
+.active_line-3 {
+  transform: rotate(-45deg) translate(2px, 1px);
+  background-color: #000;
+}
+@media (min-width: 319px) and (max-width: 767px) {
+  .active_line-3 {
+    transform: rotate(-45deg) translate(3px, 1px);
+    background-color: #000;
+  }
+}
+
+.nav_menu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: -100vh;
+  margin: 0;
+  background-color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.3s ease-in;
+  z-index: 1;
+}
+
+.active_nav {
+  top: 0;
+}
+
+.nav_menu a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 200%;
+  color: #000;
+}
+
+.logo {
+  width: 35%;
+  margin-top: -7%;
+  margin-left: -5%;
+}
+.logo img {
+  width: 100%;
+}
+
+main {
+  width: 100vw;
+}
+
+.contenedor__portada {
+  width: 100%;
+}
+.contenedor__portada button {
+  background-color: #f46f4c;
+  color: #fff;
+  width: 35%;
+  height: 3em;
+  border: none;
+  margin: 5%;
+  font-weight: 500;
+}
+.contenedor__portada figure {
+  width: 100%;
+}
+.contenedor__portada figure img {
+  width: 100%;
+}
+
+.texto__portada {
+  width: 100%;
+  margin-top: 10%;
+}
+.texto__portada h2 {
+  width: 50%;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 5%;
+}
+.texto__portada p {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  font-weight: 400;
+  text-align: left;
+}
+
+.bottom {
+  height: 400px;
+  margin-top: 5%;
+}
+.bottom img {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}/*# sourceMappingURL=index.css.map */

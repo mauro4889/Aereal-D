@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
+main {
+  width: 100vw;
+}
+
+.contenedor__portada {
+  width: 100%;
+}
+.contenedor__portada button {
+  background-color: #f46f4c;
+  color: #fff;
+  width: 35%;
+  height: 3em;
+  border: none;
+  margin: 5%;
+  font-weight: 500;
+}
+.contenedor__portada figure {
+  width: 100%;
+}
+.contenedor__portada figure img {
+  width: 100%;
+}
+
+.texto__portada {
+  width: 100%;
+  margin-top: 10%;
+}
+.texto__portada h2 {
+  width: 50%;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 5%;
+}
+.texto__portada p {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  font-weight: 400;
+  text-align: left;
+}
+
+.bottom {
+  height: 400px;
+  margin-top: 5%;
+}
+.bottom img {
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */
