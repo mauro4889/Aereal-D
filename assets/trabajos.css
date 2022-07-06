@@ -1,0 +1,29 @@
+.trabajos {
+  margin-top: 25%;
+  width: 100vw;
+}
+
+.contenedor__trabajos {
+  width: 100%;
+  margin-top: 10%;
+}
+.contenedor__trabajos .titulo__trabajo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 1%;
+  margin-bottom: 5%;
+}
+.contenedor__trabajos figure {
+  width: 100%;
+}
+.contenedor__trabajos figure img {
+  width: 100%;
+}
+.contenedor__trabajos .texto__trabajo {
+  width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 2%;
+  text-decoration: none;
+  color: #000;
+}/*# sourceMappingURL=trabajos.css.map */

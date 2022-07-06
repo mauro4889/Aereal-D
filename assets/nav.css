@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
 nav {
   position: relative;
   display: flex;
@@ -44,7 +44,7 @@ nav {
 
 .active_line-2 {
   opacity: 0;
-  margin-left: -100px;
+  margin-left: 100px;
 }
 
 .active_line-3 {
@@ -80,7 +80,6 @@ nav {
 
 .nav_menu a {
   text-decoration: none;
-  color: antiquewhite;
   font-size: 200%;
   color: #000;
 }
@@ -92,4 +91,8 @@ nav {
 }
 .logo img {
   width: 100%;
+}
+
+.actual {
+  color: #f46f4c !important;
 }/*# sourceMappingURL=nav.css.map */

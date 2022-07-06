@@ -1,3 +1,7 @@
+let inicio = document.getElementById('inicio');
+let nosotros = document.getElementById('sobreNosotros');
+let contacto = document.getElementById('contacto');
+
 /* MENU HAMBURGUESA */
 document.querySelector('.btn_menu').addEventListener('click', animateBars);
 
@@ -13,3 +17,16 @@ function animateBars() {
     nav_menu.classList.toggle('active_nav')
 }
 /* FIN MENU HAMBURGUESA */
+
+let urlActual = window.location.pathname
+console.log(urlActual.pathname);
+
+const paginaActual = (pagina) =>{
+    if (pagina == "/index.html"){
+        inicio.classList.toggle('actual');
+    }
+}
+
+window.addEventListener('DOMContentLoaded', (e) =>{
+    paginaActual(urlActual);
+})
