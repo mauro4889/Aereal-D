@@ -1,19 +1,33 @@
 .trabajos
     margin-top: 25%
     width: 100vw
+    h2
+        text-align: center
+    @media (min-width: 1023px)
+        display: flex
+        justify-content: space-around
 
 .contenedor__trabajos
     width: 100%
     margin-top: 10%
+    @media (min-width: 1023px)
+        width: 30%
+        margin-top: 0
+        border: solid 1px #3a3939
     .titulo__trabajo
         font-weight: 600
         font-size: 20px
         margin-left: 1%
         margin-bottom: 5%
+        @media (min-width: 1023px)
+            text-align: center
+            margin-left: 0
     figure
         width: 100%
         img
             width: 100%
+            @media (min-width: 1023px)
+                height: 15em
     .texto__trabajo
         width: 100%
         font-weight: 400
@@ -21,3 +35,19 @@
         margin-top: 2%
         text-decoration: none
         color: #000
+        @media (min-width: 1023px)
+            text-align: center
+            margin-top: 5%
+    h3
+        @media (min-width: 1023px)
+            margin-left: 5%
+
+.contenedor__mg
+    height: 2em
+    display: flex
+    width: 90%
+    i
+        color: red
+    @media (min-width: 1023px)
+        margin-top: 5%
+        justify-content: flex-end

@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
+header {
+  width: 100vw;
+}
+
 nav {
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -16,6 +21,11 @@ nav {
 @media (min-width: 319px) and (max-width: 767px) {
   .btn_menu {
     margin: 5%;
+  }
+}
+@media (min-width: 1023px) {
+  .btn_menu {
+    display: none;
   }
 }
 
@@ -73,6 +83,20 @@ nav {
   transition: 0.3s ease-in;
   z-index: 1;
 }
+@media (min-width: 1023px) {
+  .nav_menu {
+    position: static;
+    top: 0;
+    height: 4em;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1023px) {
+  .nav_menu li {
+    margin-right: 5%;
+  }
+}
 
 .active_nav {
   top: 0;
@@ -83,11 +107,26 @@ nav {
   font-size: 200%;
   color: #000;
 }
+@media (min-width: 1023px) {
+  .nav_menu a {
+    font-size: 100%;
+  }
+}
 
 .logo {
   width: 35%;
   margin-top: -7%;
   margin-left: -5%;
+}
+@media (min-width: 767px) {
+  .logo {
+    width: 25%;
+  }
+}
+@media (min-width: 1023px) {
+  .logo {
+    margin-top: -5%;
+  }
 }
 .logo img {
   width: 100%;

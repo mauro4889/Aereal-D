@@ -1,94 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <script
+      src="https://kit.fontawesome.com/9575b3809c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Aereal-D</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="./assets/img/logo.png" alt="logo">
-            </div>
-            <div class="btn_menu">
-                <div class="line-1"></div>
-                <div class="line-2"></div>
-                <div class="line-3"></div>
-            </div>
-            <ul class="nav_menu">
-                <li><a href="#" id="inicio">Inicio</a></li>
-                <li><a href="$" id="sobreNosotros">Sobre nosotros</a></li>
-                <li><a href="$" id="contacto">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">
+          <img src="./assets/img/logo.png" alt="logo" />
+        </div>
+        <div class="btn_menu">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+        <ul class="nav_menu">
+          <li><a href="#" id="inicio">Inicio</a></li>
+          <li><a href="$" id="sobreNosotros">Sobre nosotros</a></li>
+          <li><a href="$" id="contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <div class="contenedor__portada">
-            <figure class="imagen__portada top">
-                <img src="./assets/img/portada_mobile.jpg" alt="portada">
-            </figure>
-            <div class="texto__portada">
-                <h2>BIENVENIDO A AEREAL-D</h2>
-                <P>Somos un equipo dedicado a tomar fotografias aereas con nuestros drones</P>
-            </div>
-            <button>Conoce más</button>
-            <figure class="imagen__portada bottom">
-                <img src="./assets/img/portada_mobile2.jpg" alt="portada2">
-            </figure>
+      <div class="contenedor__portada">
+        <figure class="imagen__portada top"></figure>
+        <div class="texto__portada">
+          <h2>BIENVENIDO A AEREAL-D</h2>
+          <p>
+            Somos un equipo dedicado a tomar fotografias aereas con nuestros
+            drones
+          </p>
         </div>
+        <button>Conoce más</button>
+        <figure class="imagen__portada bottom"></figure>
+      </div>
     </main>
 
     <section class="galeria">
-        <div class="contenedor__galeria">
-            <figure class="img__galeria">
-                <img src="./assets/img/portada_mobile.jpg" alt="imagen">
-                <h4>CALIDAD DE IMAGEN</h4>
-            </figure>
-            <figure class="img__galeria">
-                <img src="./assets/img/galeria/img_galeria_1_mobile.jpg" alt="imagen 2">
-                <h4>EQUIPOS MODERNOS</h4>
-            </figure>
-            <figure class="img__galeria">
-                <img src="./assets/img/galeria/img_galeria_3_mobile.jpg" alt="imagen 3">
-                <h4>FOTOS PARA EVENTOS</h4>
-            </figure>
-        </div>
+      <div class="contenedor__galeria">
+        <figure class="img__galeria">
+          <img
+            src="./assets/img/galeria/img_galeria_2_mobile.jpg"
+            alt="imagen"
+          />
+          <h4>CALIDAD DE IMAGEN</h4>
+        </figure>
+        <figure class="img__galeria">
+          <img
+            src="./assets/img/galeria/img_galeria_1_mobile.jpg"
+            alt="imagen 2"
+          />
+          <h4>EQUIPOS MODERNOS</h4>
+        </figure>
+        <figure class="img__galeria">
+          <img
+            src="./assets/img/galeria/img_galeria_3_mobile.jpg"
+            alt="imagen 3"
+          />
+          <h4>FOTOS PARA EVENTOS</h4>
+        </figure>
+      </div>
     </section>
 
     <section class="trabajos">
-        <div class="contenedor__trabajos">
+      <div class="contenedor__trabajos">
         <p class="titulo__trabajo">BOSQUES</p>
         <figure>
-            <img src="./assets/img/trabajos/bosque_mobile.jpg" alt="Bosques">
+          <img src="./assets/img/trabajos/bosque_mobile.jpg" alt="Bosques" />
         </figure>
-        <a href="" class="texto__trabajo">Trabajos realizados en bosques</a>
-    </div>
-        <div class="contenedor__trabajos">
+        <h3>Trabajos realizados en bosques</h3>
+        <p class="texto__trabajo">
+          Capturando la belleza del bosque desde el cielo
+        </p>
+        <div class="contenedor__mg">
+          <p class="contador"></p>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+      <div class="contenedor__trabajos">
         <p class="titulo__trabajo">MAR</p>
         <figure>
-            <img src="./assets/img/trabajos/mar_mobile.jpg" alt="Mar">
+          <img src="./assets/img/trabajos/mar_mobile.jpg" alt="Mar" />
         </figure>
-        <a href="" class="texto__trabajo">Trabajos realizados en el mar, playas, etc.</a>
-    </div>
-        <div class="contenedor__trabajos">
+        <h3>Trabajos realizados en el mar, playas, etc.</h3>
+        <p class="texto__trabajo">Vista aerea de una playa paradisíaca</p>
+        <div class="contenedor__mg">
+          <p class="contador"></p>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
+      <div class="contenedor__trabajos">
         <p class="titulo__trabajo">EVENTOS</p>
         <figure>
-            <img src="./assets/img/trabajos/eventos_mobile.jpg" alt="Eventos">
+          <img src="./assets/img/trabajos/eventos_mobile.jpg" alt="Eventos" />
         </figure>
-        <a href="" class="texto__trabajo">Trabajos realizados en distintos eventos</a>
-    </div>
+        <h3>Trabajos realizados en distintos eventos</h3>
+        <p class="texto__trabajo">Festival de verano en su maximo esplendor</p>
+        <div class="contenedor__mg">
+          <p class="contador"></p>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+      </div>
     </section>
     <footer>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
     </footer>
+
     <script src="./js/index.js"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

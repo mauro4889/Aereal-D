@@ -6,6 +6,23 @@ main
 
 .contenedor__portada
     width: 100%
+    @media (min-width: 767px)
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: repeat(3 1fr)
+        grid-gap: 10% 2%
+    .top
+        width: 100%
+        height: 15em
+        background-image: url(./img/portada_mobile.jpg)
+        background-size: cover
+        @media (min-width: 767px)
+            grid-column-start: 1
+            grid-column-end: 3
+            height: 25em
+        @media (min-width: 1023px)
+            background-image: url(./img/portada_desktop.jpg)
+            height: 35em
     button
         background-color: $color-principal
         color: #fff
@@ -16,12 +33,18 @@ main
         font-weight: 500
     figure
         width: 100%
+        @media (min-width: 767px)
+            width: 75%
+            margin: auto
         img
             width: 100%
 
 .texto__portada
     width: 100%
     margin-top: 10%
+    @media (min-width: 767px)
+        grid-column-start: 2
+        grid-column-end: 3
     h2
         width: 50%
         font-weight: bold
@@ -37,5 +60,16 @@ main
 .bottom
     height: 400px
     margin-top: 5%
+    background-image: url(./img/portada_mobile2.jpg)
+    background-size: cover
+    @media (min-width: 767px)
+        height: 300px
+        grid-column-start: 1
+        grid-column-end: 2
+        grid-row-start: 2
+        grid-row-end: 4
+    @media (min-width: 1023px)
+        height: 35em
     img
         height: 100%
+        

@@ -1,6 +1,8 @@
 @import variables
-
+header
+    width: 100vw
 nav 
+    width: 100%
     position: relative
     display: flex
     justify-content: space-between
@@ -15,6 +17,8 @@ nav
     z-index: 10
     @media (min-width: 319px) and (max-width: 767px)
         margin: 5%
+    @media (min-width: 1023px)
+        display: none
 
 
 .line-1,
@@ -64,6 +68,15 @@ nav
     align-items: center
     transition: 0.3s ease-in
     z-index: 1
+    @media (min-width: 1023px)
+        position: static
+        top: 0
+        height: 4em
+        flex-direction: row
+        justify-content: flex-end
+    li
+        @media (min-width: 1023px)
+            margin-right: 5%
 
 
 .active_nav 
@@ -74,11 +87,17 @@ nav
     text-decoration: none
     font-size: 200%
     color: #000
+    @media (min-width: 1023px)
+        font-size: 100%
 
 .logo
     width: 35%
     margin-top: -7%
     margin-left: -5%
+    @media (min-width: 767px)
+        width: 25%
+    @media (min-width: 1023px)
+        margin-top: -5%
     img
         width: 100%
 
