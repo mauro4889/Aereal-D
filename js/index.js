@@ -21,12 +21,13 @@ function animateBars() {
 let urlActual = window.location.pathname
 console.log(urlActual.pathname);
 
-const paginaActual = (pagina) =>{
-    if (pagina == "/index.html"){
+const paginaActual = (pagina) => {
+    if (pagina == "/index.html") {
         inicio.classList.toggle('actual');
     }
 }
 
-window.addEventListener('DOMContentLoaded', (e) =>{
+window.addEventListener('DOMContentLoaded', (e) => {
     paginaActual(urlActual);
+    checkPosition();
 })
