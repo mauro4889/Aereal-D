@@ -48,9 +48,26 @@
     display: flex
     width: 90%
     justify-content: flex-end
+    align-items: center
     margin-top: 5%
+    p
+        margin-right: 5%
     i
         color: red
+        cursor: pointer
+        margin-top: 1%
+        &:active
+            color: #db6c6c
+            font-size: 120%
+            margin-top: 0
     @media (min-width: 1023px)
         margin-top: 5%
         justify-content: flex-end
+
+.separador
+    width: 80%
+    margin: auto
+    margin-top: 5%
+    border: solid 0.5px #3a3939
+    @media (min-width: 1023px)
+        display: none

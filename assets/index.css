@@ -152,7 +152,6 @@ nav {
   width: 35%;
   margin-top: -7%;
   margin-left: -5%;
-  background-color: #fff;
 }
 
 @media (min-width: 767px) {
@@ -313,6 +312,12 @@ main {
   }
 }
 
+@media (min-width: 1023px) {
+  .galeria {
+    margin-top: 20%;
+  }
+}
+
 .contenedor__galeria {
   width: 100%;
 }
@@ -378,6 +383,7 @@ main {
   .contenedor__galeria .img__galeria h4 {
     text-align: center;
     margin-top: 15%;
+    font-size: 20px;
   }
 }
 
@@ -483,11 +489,26 @@ main {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 5%;
+}
+
+.contenedor__mg p {
+  margin-right: 5%;
 }
 
 .contenedor__mg i {
   color: red;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+.contenedor__mg i:active {
+  color: #db6c6c;
+  font-size: 120%;
+  margin-top: 0;
 }
 
 @media (min-width: 1023px) {
@@ -496,6 +517,19 @@ main {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+}
+
+.separador {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  border: solid 0.5px #3a3939;
+}
+
+@media (min-width: 1023px) {
+  .separador {
+    display: none;
   }
 }
 
@@ -523,6 +557,13 @@ footer ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 90%;
+}
+
+@media (min-width: 1023px) {
+  footer ul {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 }
 
 footer ul li {

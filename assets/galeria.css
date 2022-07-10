@@ -10,6 +10,12 @@
   }
 }
 
+@media (min-width: 1023px) {
+  .galeria {
+    margin-top: 20%;
+  }
+}
+
 .contenedor__galeria {
   width: 100%;
 }
@@ -75,6 +81,7 @@
   .contenedor__galeria .img__galeria h4 {
     text-align: center;
     margin-top: 15%;
+    font-size: 20px;
   }
 }
 
