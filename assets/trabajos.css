@@ -2,18 +2,13 @@
   margin-top: 25%;
   width: 100vw;
 }
-
 .trabajos h2 {
   text-align: center;
 }
-
 @media (min-width: 1023px) {
   .trabajos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
@@ -21,7 +16,6 @@
   width: 100%;
   margin-top: 10%;
 }
-
 @media (min-width: 1023px) {
   .contenedor__trabajos {
     width: 30%;
@@ -29,35 +23,29 @@
     border: solid 1px #3a3939;
   }
 }
-
 .contenedor__trabajos .titulo__trabajo {
   font-weight: 600;
   font-size: 20px;
   margin-left: 1%;
   margin-bottom: 5%;
 }
-
 @media (min-width: 1023px) {
   .contenedor__trabajos .titulo__trabajo {
     text-align: center;
     margin-left: 0;
   }
 }
-
 .contenedor__trabajos figure {
   width: 100%;
 }
-
 .contenedor__trabajos figure img {
   width: 100%;
 }
-
 @media (min-width: 1023px) {
   .contenedor__trabajos figure img {
     height: 15em;
   }
 }
-
 .contenedor__trabajos .texto__trabajo {
   width: 100%;
   font-weight: 400;
@@ -66,18 +54,15 @@
   text-align: center;
   color: #000;
 }
-
 @media (min-width: 1023px) {
   .contenedor__trabajos .texto__trabajo {
     text-align: center;
     margin-top: 5%;
   }
 }
-
 .contenedor__trabajos h3 {
   text-align: center;
 }
-
 @media (min-width: 1023px) {
   .contenedor__trabajos h3 {
     margin-left: 5%;
@@ -86,41 +71,29 @@
 
 .contenedor__mg {
   height: 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   margin-top: 5%;
 }
-
 .contenedor__mg p {
   margin-right: 5%;
 }
-
 .contenedor__mg i {
   color: red;
   cursor: pointer;
   margin-top: 1%;
 }
-
 .contenedor__mg i:active {
   color: #db6c6c;
   font-size: 120%;
   margin-top: 0;
 }
-
 @media (min-width: 1023px) {
   .contenedor__mg {
     margin-top: 5%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
 }
 
@@ -130,10 +103,8 @@
   margin-top: 5%;
   border: solid 0.5px #3a3939;
 }
-
 @media (min-width: 1023px) {
   .separador {
     display: none;
   }
-}
-/*# sourceMappingURL=trabajos.css.map */
+}/*# sourceMappingURL=trabajos.css.map */
