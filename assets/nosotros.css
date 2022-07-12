@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+}
+
+.imagen__nosotros {
+  background-image: url(./img/nosotros/nosotros_mobile.jpg);
+  height: 15em;
+  background-size: cover;
+}
+@media (min-width: 767px) {
+  .imagen__nosotros {
+    height: 20em;
+  }
+}
+@media (min-width: 1023px) {
+  .imagen__nosotros {
+    background-image: url(./img/nosotros/nosotros_desktop.jpg);
+    height: 40em;
+  }
+}
+
+.capa {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+}
+@media (min-width: 767px) {
+  .capa {
+    top: 45%;
+  }
+}
+@media (min-width: 767px) {
+  .capa h2 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+}
+
+.contenedor__texto {
+  width: 80vw;
+  margin: auto;
+  margin-top: 5%;
+}
+.contenedor__texto p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .contenedor__texto p {
+    letter-spacing: 1px;
+  }
+}
+@media (min-width: 1023px) {
+  .contenedor__texto p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=nosotros.css.map */

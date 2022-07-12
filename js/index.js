@@ -10,7 +10,6 @@ let valorEvento = 0;
 let valor = { bosque: 0, mar: 0, evento: 0 };
 
 /*CONTADOR MG */
-
 mgBosque.addEventListener('click', () => {
     valorBosque = valor.bosque + 1;
     valor.bosque = valorBosque;
@@ -33,9 +32,7 @@ mgEventos.addEventListener('click', () => {
     contadorEventos.textContent = valorEvento;
     localStorage.setItem('contador', JSON.stringify(valor))
 })
-
-
-
+/* FIN CONTADOR */
 
 window.addEventListener('DOMContentLoaded', (e) => {
     let valorData = JSON.parse(localStorage.getItem('contador'));

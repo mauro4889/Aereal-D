@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/index.css">
-    <link rel="stylesheet" href="/assets/nosotros.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Sobre Nosotros</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/index.css">
+    <link rel="stylesheet" href="/assets/contacto.css">
+    <title>Contacto</title>
 </head>
 <body>
     <header>
@@ -23,22 +23,20 @@
             <ul class="nav_menu">
                 <li><a href="/index.html" id="inicio">Inicio</a></li>
                 <li><a href="/nosotros.html" id="sobreNosotros">Sobre nosotros</a></li>
-                <li><a href="/contacto.html" id="contacto">Contacto</a></li>
+                <li><a href="$" id="contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <figure class="imagen__nosotros">
-            <div class="capa">
-                <h2>NOSOTROS</h2>
-            </div>
-        </figure>
-        <div class="contenedor__texto" data-aos="fade-up">
-            <p class="texto__nosotros">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem beatae sequi odio odit eos expedita dignissimos commodi maxime sit eveniet alias non nemo velit corrupti in mollitia, quaerat distinctio. Ipsa aliquam commodi repellendus veritatis incidunt suscipit officia quibusdam reiciendis excepturi sequi. Necessitatibus numquam sequi minima! Quo ratione molestias ipsa eius?
-            </p>
-        </div>
+        <h3>Para obtener mas informacion y nuestras tarifas completar el formulario</h3>
+        <form action="submit" id="enviar">
+            <input type="text" placeholder="Nombre" id="inpNombre">
+            <input type="email" placeholder="Email" id="inpEmail">
+            <input type="text" placeholder="Asunto" class="input__asunto" id="inpAsunto">
+            <textarea cols="30" rows="10" placeholder="Escribe tu mensaje aqui..." id="textoContacto"></textarea>
+            <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
     </main>
 
     <footer>
