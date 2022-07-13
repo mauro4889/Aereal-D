@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/index.css" />
+    <script src="https://kit.fontawesome.com/9575b3809c.js" crossorigin="anonymous"></script>
+    <title>Trabajos en el bosque</title>
+</head>
+<body>
+    <header>
+        <nav data-aos="fade-down">
+            <div class="logo" id="logo">
+                <img src="./assets/img/logo2.png" alt="logo" />
+            </div>
+            <div class="btn_menu">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            <ul class="nav_menu">
+                <li><a href="/index.html" id="inicio">Inicio</a></li>
+                <li><a href="/nosotros.html" id="sobreNosotros">Sobre nosotros</a></li>
+                <li><a href="/contacto.html" id="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor__titulo">
+            <h2>
+                Trabajos realizados en el bosque
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ratione fuga id iure aut qui, quas, necessitatibus, blanditiis libero ex totam vero. Iure, voluptate error!
+            </p>
+        </div>
+        <div class="contenedor__galeria">
+            <figure class="imagenes img1">
+                <img src="/assets/img/galeria/bosque/bosque_mobile_1.jpg" alt="bosque 1">
+            </figure>
+            <figure class="imagenes img2">
+                <img src="/assets/img/galeria/bosque/bosque_mobile_2.jpg" alt="bosque 2">
+            </figure>
+            <figure class="imagenes img3">
+                <img src="/assets/img/galeria/bosque/bosque_mobile_3.jpg" alt="bosque 3">
+            </figure>
+            <figure class="imagenes img4">
+                <img src="/assets/img/galeria/bosque/bosque_mobile_4.jpg" alt="bosque 4">
+            </figure>
+            <figure class="imagenes img5">
+                <img src="/assets/img/galeria/bosque/bosque_mobile_5.jpg" alt="bosque 5">
+            </figure>
+            <figure class="imagenes img6">
+                <img src="/assets/img/galeria/bosque/bosque_mobile_6.jpg" alt="bosque 6">
+            </figure>
+        </div>
+    </main>
+
+    <section class="contenedor__comentarios">
+        <div class="mostrar__comentario" id="mostrarComentario">
+            <template class="temaplate__card" id="templateCard">
+                <div class="card">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </template>
+        </div>
+        <div class="agregar__comentario">
+            <h3>Agregar comentario</h3>
+            <input type="text" id="nombreComentario" placeholder="Nombre">
+            <textarea cols="30" rows="10" placeholder="Escribe tu mensaje aqui..." id="textoGaleria" class="texto"></textarea>
+            <input type="submit" value="Enviar" id="btnComentario">
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="/nosotros.html">Sobre nosotros</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+        </ul>
+    </footer>
+    <script src="/js/scripts.js"></script>
+    <script src="/js/comentarios.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
