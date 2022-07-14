@@ -29,7 +29,9 @@ btnComentario.addEventListener('click', (e)=>{
     } else {
         agregarComentario();
         data.push({nombre:nombreComentario.value, comentario:textoComentario.value});
-        localStorage.setItem('comentarios', JSON.stringify(data));
+        localStorage.setItem('comentarios_bosque', JSON.stringify(data));
+        nombreComentario.value = "";
+        textoComentario.value = "";
     };
     
 })
@@ -48,7 +50,7 @@ let cargarComentarios = (datos)=>{
     });
 }
 window.addEventListener('DOMContentLoaded', ()=>{
-    let cargaData = JSON.parse(localStorage.getItem('comentarios'));
+    let cargaData = JSON.parse(localStorage.getItem('comentarios_bosque'));
     cargarComentarios(cargaData);
     data = cargaData;
 })

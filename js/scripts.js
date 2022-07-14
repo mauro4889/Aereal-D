@@ -34,7 +34,6 @@ const paginaActual = (pagina) => {
 
 window.addEventListener('DOMContentLoaded', ()=>{
     paginaActual(urlActual);
-    console.log(urlActual)
 })
 /* FIN PAGINA ACTUAL */
 

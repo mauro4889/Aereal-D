@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
 .trabajos {
   margin-top: 25%;
   width: 100vw;
@@ -37,6 +38,7 @@
 }
 .contenedor__trabajos figure {
   width: 100%;
+  cursor: pointer;
 }
 .contenedor__trabajos figure img {
   width: 100%;
@@ -48,11 +50,19 @@
 }
 .contenedor__trabajos .texto__trabajo {
   width: 100%;
+  text-align: center;
+}
+.contenedor__trabajos .texto__trabajo a {
   font-weight: 400;
   font-size: 15px;
   margin-top: 2%;
   text-align: center;
   color: #000;
+  text-decoration: none;
+  color: #000;
+}
+.contenedor__trabajos .texto__trabajo a:hover {
+  color: #f46f4c;
 }
 @media (min-width: 1023px) {
   .contenedor__trabajos .texto__trabajo {
@@ -62,6 +72,7 @@
 }
 .contenedor__trabajos h3 {
   text-align: center;
+  cursor: pointer;
 }
 @media (min-width: 1023px) {
   .contenedor__trabajos h3 {

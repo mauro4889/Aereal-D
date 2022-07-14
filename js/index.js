@@ -4,6 +4,9 @@ let mgEventos = document.getElementById('mgEventos');
 let contadorBosque = document.getElementById('contadorBosque');
 let contadorMar = document.getElementById('contadorMar');
 let contadorEventos = document.getElementById('contadorEvento');
+let imgBosque = document.getElementById('imgBosque');
+let imgMar = document.getElementById('imgMar');
+let imgEvento = document.getElementById('imgEvento');
 let valorBosque = 0;
 let valorMar = 0;
 let valorEvento = 0;
@@ -33,7 +36,17 @@ mgEventos.addEventListener('click', () => {
     localStorage.setItem('contador', JSON.stringify(valor))
 })
 /* FIN CONTADOR */
+imgBosque.addEventListener('click', () =>{
+    window.location.href = "/trabajo_bosque.html";
+})
 
+imgMar.addEventListener('click', () =>{
+    window.location.href = "/trabajo_mar.html";
+})
+
+imgEvento.addEventListener('click', () =>{
+    window.location.href = "/trabajo_eventos.html"
+})
 window.addEventListener('DOMContentLoaded', (e) => {
     let valorData = JSON.parse(localStorage.getItem('contador'));
     valor.bosque = valorData.bosque;

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap");
 header {
   width: 100vw;
 }
@@ -368,6 +369,7 @@ main {
 }
 .contenedor__trabajos figure {
   width: 100%;
+  cursor: pointer;
 }
 .contenedor__trabajos figure img {
   width: 100%;
@@ -379,11 +381,19 @@ main {
 }
 .contenedor__trabajos .texto__trabajo {
   width: 100%;
+  text-align: center;
+}
+.contenedor__trabajos .texto__trabajo a {
   font-weight: 400;
   font-size: 15px;
   margin-top: 2%;
   text-align: center;
   color: #000;
+  text-decoration: none;
+  color: #000;
+}
+.contenedor__trabajos .texto__trabajo a:hover {
+  color: #f46f4c;
 }
 @media (min-width: 1023px) {
   .contenedor__trabajos .texto__trabajo {
@@ -393,6 +403,7 @@ main {
 }
 .contenedor__trabajos h3 {
   text-align: center;
+  cursor: pointer;
 }
 @media (min-width: 1023px) {
   .contenedor__trabajos h3 {
@@ -476,7 +487,7 @@ main p {
   }
 }
 
-.contenedor__galeria {
+.contenedor__galeria_trabajos {
   width: 100vw;
   margin-top: 20%;
   display: grid;
@@ -485,7 +496,8 @@ main p {
   grid-gap: 2px;
 }
 @media (min-width: 1023px) {
-  .contenedor__galeria {
+  .contenedor__galeria_trabajos {
+    margin: auto;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(2, 1fr);
     margin-top: 15%;
